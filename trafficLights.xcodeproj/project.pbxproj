@@ -11,6 +11,7 @@
 		2DC177702B2A2C3B0026FA1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC1776F2B2A2C3B0026FA1E /* ContentView.swift */; };
 		2DC177722B2A2C3C0026FA1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC177712B2A2C3C0026FA1E /* Assets.xcassets */; };
 		2DC177752B2A2C3C0026FA1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC177742B2A2C3C0026FA1E /* Preview Assets.xcassets */; };
+		2DC1777C2B2A2C750026FA1E /* СircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC1777B2B2A2C750026FA1E /* СircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2DC1776F2B2A2C3B0026FA1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DC177712B2A2C3C0026FA1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DC177742B2A2C3C0026FA1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DC1777B2B2A2C750026FA1E /* СircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СircleView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2DC1776D2B2A2C3B0026FA1E /* trafficLightsApp.swift */,
 				2DC1776F2B2A2C3B0026FA1E /* ContentView.swift */,
+				2DC1777B2B2A2C750026FA1E /* СircleView.swift */,
 				2DC177712B2A2C3C0026FA1E /* Assets.xcassets */,
 				2DC177732B2A2C3C0026FA1E /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DC177702B2A2C3B0026FA1E /* ContentView.swift in Sources */,
+				2DC1777C2B2A2C750026FA1E /* СircleView.swift in Sources */,
 				2DC1776E2B2A2C3B0026FA1E /* trafficLightsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

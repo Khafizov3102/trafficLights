@@ -7,12 +7,23 @@
 
 import SwiftUI
 
-struct _ircleView: View {
+struct CircleView: View {
+    let color: Color
+    let opacity: Double
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Circle()
+            .foregroundStyle(color)
+            .opacity(opacity)
+            .overlay(Circle().stroke(Color.white, lineWidth: 4))
+            .shadow(radius: 10)
+            .frame(width: 170)
     }
 }
 
 #Preview {
-    _ircleView()
+    ZStack {
+        Color.red
+        CircleView(color: .orange, opacity: 1)
+    }
 }
